@@ -13,10 +13,10 @@ provider "aws" {
   secret_key = "t6y/tRteLakQLqXT1E1AINv1M5wpabBmeCrZvY5m"
 }
 
-resource "aws_instance" "Terraform hands-on" {
+resource "aws_instance" "terraform" {
   ami           = "ami-0caf778a172362f1c"
   instance_type = "t2.micro"
-  key_name = "LinuxCLS1"
+  key_name = "Docker"
   vpc_security_group_ids = ["sg-03316bd636d90cc14"]
   subnet_id = "subnet-0a0778948a08ae08a"
   associate_public_ip_address = true
