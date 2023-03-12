@@ -17,7 +17,7 @@ resource "aws_instance" "terraform" {
   availability_zone = "ap-south-1"
 
   tags = {
-    Name = "Finance-Project_Jenkins"
+    Name = "Medicure_Project 1"
   }
 }
 
@@ -31,6 +31,6 @@ resource "aws_instance" "terraform" {
   availability_zone = "ap-south-1"
 
   tags = {
-    Name = "Monitoring-tool"
+    Name = "Medicure_Monitoring-tool"
   }
 }
